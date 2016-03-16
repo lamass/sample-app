@@ -5,11 +5,11 @@
 <body>
 <h2>AngularJS Sample Application</h2>
 <div ng-app="">
-<table border="0">
+<table border="1">
 <tr>
- <td><input type="checkbox" ng-model="enableDisableButton">Disable
+ <td><input type="checkbox" ng-model="Z">Disable
 Button</td>
- <td><button ng-disabled="enableDisableButton">Click Me!</button></td>
+ <td><button ng-disabled="Z">Click MeX!</button></td>
 </tr>
 <tr>
  <td><input type="checkbox" ng-model="showHide1">Show Button</td>
@@ -22,8 +22,8 @@ Angular JS Tutorial
  <td><button ng-hide="showHide2">Click Me!</button></td>
 </tr>
 <tr>
- <td><p>Total click: {{ clickCounter }}</p></td>
- <td><button ng-click="clickCounter = clickCounter + 1">Click
+ <td><p>Total click: {{ c }}</p></td>
+ <td><button ng-click="c = c + 1">Click
 Me!</button></td>
 </tr>
 </table>
